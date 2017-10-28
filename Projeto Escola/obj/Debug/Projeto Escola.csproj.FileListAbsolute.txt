@@ -1,0 +1,31 @@
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\Projeto Escola.exe.config
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\Projeto Escola.exe
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\Projeto Escola.pdb
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\obj\Debug\Projeto Escola.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\obj\Debug\Projeto_Escola.Cadastrar_Usuario.resources
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\obj\Debug\Projeto_Escola.Cadastro_Aluno.resources
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\obj\Debug\Projeto_Escola.Cadastro_Escola.resources
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\obj\Debug\Projeto_Escola.Ensino_Fundamental.resources
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\obj\Debug\Projeto_Escola.Ensino_Infantil.resources
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\obj\Debug\Projeto_Escola.Ensino_medio.resources
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\obj\Debug\Projeto_Escola.formprincipal.resources
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\obj\Debug\Projeto_Escola.login.resources
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\obj\Debug\Projeto_Escola.Properties.Resources.resources
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\obj\Debug\Projeto Escola.csproj.GenerateResource.Cache
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\obj\Debug\Projeto Escola.exe
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\obj\Debug\Projeto Escola.pdb
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\EntityFramework.dll
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\EntityFramework.xml
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\Amazon.CloudWatch.Selector.dll
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\AWSSDK.Core.dll
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\AWSSDK.dll
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\Amazon.CloudWatch.Selector.pdb
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\Amazon.CloudWatch.Selector.xml
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\AWSSDK.pdb
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\AWSSDK.Core.pdb
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\AWSSDK.Core.xml
+C:\Users\Bruno\documents\visual studio 2017\Projects\Projeto Escola\Projeto Escola\bin\Debug\EntityFramework.SqlServerCompact.xml

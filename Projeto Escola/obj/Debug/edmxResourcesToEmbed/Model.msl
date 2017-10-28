@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="sisedudbModelStoreContainer" CdmEntityContainer="sisedudbEntities">
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="sisedudbModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estadoes">
+      <EntityTypeMapping TypeName="sisedudbModel.Estado">
+        <MappingFragment StoreEntitySet="Estado">
+          <ScalarProperty Name="uf" ColumnName="uf" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

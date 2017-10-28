@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72BC91F9-101B-47A8-8A47-16C9931549AB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projeto_Escola</RootNamespace>
+    <AssemblyName>Projeto Escola</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Amazon.CloudWatch.Selector, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Amazon.CloudWatch.Selector.0.2.0\lib\net45\Amazon.CloudWatch.Selector.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK, Version=2.0.6.1, Culture=neutral, PublicKeyToken=9f476d3089b52be3, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.2.0.6.1\lib\net45\AWSSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.Core.3.3.18.1\lib\net45\AWSSDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServerCompact, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.SqlServerCompact.6.1.3\lib\net45\EntityFramework.SqlServerCompact.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Compact.4.0.8876.1\lib\net40\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aluno.cs" />
+    <Compile Include="Banco.cs" />
+    <Compile Include="Cadastrar_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastrar_Usuario.Designer.cs">
+      <DependentUpon>Cadastrar_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro Aluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro Aluno.Designer.cs">
+      <DependentUpon>Cadastro Aluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro de Escola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro de Escola.Designer.cs">
+      <DependentUpon>Cadastro de Escola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager.cs" />
+    <Compile Include="Ensino Fundamental.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ensino Fundamental.Designer.cs">
+      <DependentUpon>Ensino Fundamental.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ensino Infantil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ensino Infantil.Designer.cs">
+      <DependentUpon>Ensino Infantil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ensino medio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ensino medio.Designer.cs">
+      <DependentUpon>Ensino medio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnsinoFundamental.cs" />
+    <Compile Include="EnsinoInfantil.cs" />
+    <Compile Include="Ensinomedio.cs" />
+    <Compile Include="enum.cs" />
+    <Compile Include="Escola.cs" />
+    <Compile Include="formprincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formprincipal.Designer.cs">
+      <DependentUpon>formprincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlConnecion.cs" />
+    <Compile Include="Turma.cs" />
+    <Compile Include="Usuario.cs" />
+    <Compile Include="Vaga.cs" />
+    <EmbeddedResource Include="Cadastrar_Usuario.resx">
+      <DependentUpon>Cadastrar_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro Aluno.resx">
+      <DependentUpon>Cadastro Aluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro de Escola.resx">
+      <DependentUpon>Cadastro de Escola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ensino Fundamental.resx">
+      <DependentUpon>Ensino Fundamental.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ensino Infantil.resx">
+      <DependentUpon>Ensino Infantil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ensino medio.resx">
+      <DependentUpon>Ensino medio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formprincipal.resx">
+      <DependentUpon>formprincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Banco.datasource" />
+    <None Include="Properties\DataSources\EnsinoFundamental.datasource" />
+    <None Include="Properties\DataSources\EnsinoInfantil.datasource" />
+    <None Include="Properties\DataSources\Ensinomedio.datasource" />
+    <None Include="Properties\DataSources\Escola.datasource" />
+    <None Include="Properties\DataSources\Turma.datasource" />
+    <None Include="Properties\DataSources\Vaga.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sem título.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    if not exist "$(TargetDir)x86" md "$(TargetDir)x86"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\x86\*.*" "$(TargetDir)x86"
+    if not exist "$(TargetDir)amd64" md "$(TargetDir)amd64"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\amd64\*.*" "$(TargetDir)amd64"</PostBuildEvent>
+  </PropertyGroup>
+</Project>
